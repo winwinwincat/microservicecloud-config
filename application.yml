@@ -1,0 +1,16 @@
+
+spring:
+  prifiles:
+    active:
+    - dev 
+---
+spring:
+  prifiles: dev
+  application:
+    name: microservicecloud-config-winwin-dev
+---
+spring:
+  prifiles: test
+  application:
+    name: microservicecloud-config-winwin-test    
+
